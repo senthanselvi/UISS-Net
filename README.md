@@ -45,7 +45,7 @@ Training:
 - Loss: Cross-Entropy + Dice Loss
 - Optimizer: Adam
 - Learning Rate: Cosine scheduler
-- 
+  
 Evaluation: mIoU, Accuracy, and mPA
 
 Visualization: Pixel-wise mask overlays for qualitative analysis
@@ -54,12 +54,16 @@ Visualization: Pixel-wise mask overlays for qualitative analysis
 
 DeepFish Dataset
 Accuracy: 99.75%
+
 Mean IoU: 92.60%
+
 Mean Pixel Accuracy: 93.92%
 
 SUIM Dataset
 Accuracy: 82.02% (Base paper: 86.93%)
+
 Mean IoU: 67.12% (Base paper: 72.09%)
+
 Mean Pixel Accuracy: 80.05% (Base paper: 80.37%)
  
 **Resources**
