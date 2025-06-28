@@ -3,9 +3,11 @@
 Improving boundary segmentation accuracy in underwater environments using a customized deep learning architecture.
 
 **Overview**
+
 Underwater image segmentation is a crucial task in aquaculture, marine biology, and underwater robotics. The challenging nature of underwater environments—low visibility, turbidity, and color distortion—impacts the performance of existing models like U-Net and PSP-Net. To address this, we propose UISS-Net, a specialized deep learning architecture tailored for underwater semantic segmentation.
 
 **Key Features**
+
 Backbone: ResNet-50 for deep feature extraction
 Architecture: U-Net-like encoder-decoder with attention modules
 Enhancements:
