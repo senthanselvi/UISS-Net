@@ -28,11 +28,13 @@ Metrics: Accuracy, Mean IoU (mIoU), Mean Pixel Accuracy (mPA)
 * SUIM (Semantic Underwater Imagery):
 1525 labeled images, 8 classes (divers, fish, coral, robots, etc.)
 Supports multi-class segmentation
+
 *DeepFish:
 40,000 images, with 300 pixel-labeled masks
 Focused on binary fish segmentation
 
 **Methodology**
+
 Preprocessing: Resizing, normalization, and augmentation
 Model Architecture: ResNet50 + U-Net with attention modules
 Training:
@@ -55,6 +57,8 @@ Mean Pixel Accuracy: 80.05% (Base paper: 80.37%)
  
 **Resources**
 Base Paper DOI: https://doi.org/10.1007/s10499-024-01439-x
+
 SUIM Dataset: https://irvlab.cs.umn.edu/resources/suim-dataset
+
 DeepFish Dataset: https://research.csiro.au/deepfish/
  
