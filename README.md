@@ -9,7 +9,9 @@ Underwater image segmentation is a crucial task in aquaculture, marine biology, 
 **Key Features**
 
 Backbone: ResNet-50 for deep feature extraction
+
 Architecture: U-Net-like encoder-decoder with attention modules
+
 Enhancements:
 * Multi-Scale Feature Fusion Network (MSFFN)
 * Channel attention mechanism
