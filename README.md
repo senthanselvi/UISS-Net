@@ -29,22 +29,27 @@ Metrics: Accuracy, Mean IoU (mIoU), Mean Pixel Accuracy (mPA)
 1525 labeled images, 8 classes (divers, fish, coral, robots, etc.)
 Supports multi-class segmentation
 
-*DeepFish:
+* DeepFish:
 40,000 images, with 300 pixel-labeled masks
 Focused on binary fish segmentation
 
 **Methodology**
 
-Preprocessing: Resizing, normalization, and augmentation
+Preprocessing: Resizing, normalization, and augmentation 
+
 Model Architecture: ResNet50 + U-Net with attention modules
+
 Training:
-Loss: Cross-Entropy + Dice Loss
-Optimizer: Adam
-Learning Rate: Cosine scheduler
+- Loss: Cross-Entropy + Dice Loss
+- Optimizer: Adam
+- Learning Rate: Cosine scheduler
+- 
 Evaluation: mIoU, Accuracy, and mPA
+
 Visualization: Pixel-wise mask overlays for qualitative analysis
 
-Results
+**Results**
+
 DeepFish Dataset
 Accuracy: 99.75%
 Mean IoU: 92.60%
